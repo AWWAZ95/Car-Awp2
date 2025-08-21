@@ -1,0 +1,76 @@
+.Cook{
+    width: 100vw;
+    display: block;
+    
+  
+}
+.Cook div{
+    width: 46vw;
+    display: inline-block;
+}
+
+#img img{
+    width: 430px;
+    height: 300px;
+}
+body{
+    background-image: linear-gradient(rgb(181, 181, 181), lightblue, gray);
+    overflow-x: hidden;
+     
+}
+
+.card-container{
+    display: block;
+}
+.card{
+    display: inline-block;
+    margin: 10px;
+    width: 350px;
+    border: 3px solid azure;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 2px 3px 2px 3px rgb(0, 0, 0);
+
+}
+.card img{
+    width: 350px;
+}
+.card button{
+    width: 40%;
+    height: 40px;
+    background-color: rgb(69, 110, 69);
+    color: white;
+    margin: 5px;
+
+}
+h2{
+    text-align: center;
+    
+}
+@media screen and (max-width:975px) {
+#img img{
+    width: 350px;
+    height: 300px;
+}    
+}
+@media screen and (max-width:758px){
+    #Note{
+        display: block;
+        width: 100%;
+    }
+    #img img{
+        display: block;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:750px){
+    #img img{
+        width: 100vw;
+    }
+}
+
+
+
+
+

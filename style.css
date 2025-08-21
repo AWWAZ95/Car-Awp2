@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    list-style-type: none;
+  
+}
+body{
+    background-color: lightsalmon;
+}
+a{
+    padding-left: 70px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: rgb(134, 56, 0);
+}
+/*change the max width of the one that is affected
+@media screen and (max-width: 700px eg:the width thats needs changing) {
+    nav a{
+ padding-left: 20px; reduce it to the first left(margin or padding u have used)
+        }
+ nav{
+ when you style inside the media it will havve the style when its on the particular screen
+}*/
+@media screen and (max-width:500px) {
+    nav a{
+        padding-left: 10px;
+    }
+    nav{
+        position: sticky;
+        
+    }
+}
